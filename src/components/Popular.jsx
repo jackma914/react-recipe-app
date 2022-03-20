@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
+import { Link } from "react-router-dom";
 
 function Popular() {
   const [popular, setPopular] = useState([]);
@@ -25,7 +26,6 @@ function Popular() {
       );
       const data = await api.json();
 
-      console.log(data.recipes);
       // JSON.stringify를 이용해 json객체를 string으로 "popular" 라는 키 네임으로 setItem을 이용해 local에 추가합니다.
       localStorage.setItem("popular", JSON.stringify(data.recipes));
       setPopular(data.recipes);
@@ -49,9 +49,11 @@ function Popular() {
             return (
               <SplideSlide key={recipe.id}>
                 <Card>
-                  <p>{recipe.title}</p>
-                  <img src={recipe.image} alt={recipe.title} />
-                  <Gradient />
+                  <Link to={"/recipe/" + recipe.id}>
+                    <p>{recipe.title}</p>
+                    <img src={recipe.image} alt={recipe.title} />
+                    <Gradient />
+                  </Link>
                 </Card>
               </SplideSlide>
             );
