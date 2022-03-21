@@ -21,6 +21,7 @@ function Recipe() {
     fetchDetails(params.name);
   }, [params.name]);
   console.log(detail);
+
   return (
     <DetailWrapper>
       <div>
@@ -40,15 +41,21 @@ function Recipe() {
         >
           Ingredients
         </Button>
-        <div>
-          <h3 dangerouslySetInnerHTML={{ __html: detail.summary }}></h3>
-          <h3 dangerouslySetInnerHTML={{ __html: detail.instructions }}></h3>
-        </div>
-        <ul>
-          {detail.extendedIngredients.map((e) => (
-            <li key={e.id}>{e.original}</li>
-          ))}
-        </ul>
+
+        {activeTab === "instructions" && (
+          <div>
+            <h3 dangerouslySetInnerHTML={{ __html: detail.summary }}></h3>
+            <h3 dangerouslySetInnerHTML={{ __html: detail.instructions }}></h3>
+          </div>
+        )}
+
+        {activeTab === "ingredients" && (
+          <ul>
+            {detail.extendedIngredients.map((item) => (
+              <li key={item.id}>{item.original}</li>
+            ))}
+          </ul>
+        )}
       </Info>
     </DetailWrapper>
   );
