@@ -10,7 +10,7 @@
 <br>
 
 <p align='center'>
-    <img src="https://img.shields.io/badge/styled-components--4D4D4D?logo=styled components"/>
+    <img src="https://img.shields.io/badge/styled components--4D4D4D?logo=styled-components"/>
         <img src="https://img.shields.io/badge/React-4D4D4D?logo=React"/>
         <img src="https://img.shields.io/badge/React Router-4D4D4D?logo=React Router"/>
     <img src="https://img.shields.io/badge/Netlify-4D4D4D?logo=Netlify" />
