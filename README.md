@@ -10,20 +10,20 @@
 <br>
 
 <p align='center'>
-    <img src="https://img.shields.io/badge/javascript--4D4D4D?logo=javascript"/>
-        <img src="https://img.shields.io/badge/CSS3-4D4D4D?logo=CSS3"/>
-        <img src="https://img.shields.io/badge/HTML5-4D4D4D?logo=HTML5"/>
+    <img src="https://img.shields.io/badge/styled-components--4D4D4D?logo=styled-components"/>
+        <img src="https://img.shields.io/badge/React-4D4D4D?logo=React"/>
+        <img src="https://img.shields.io/badge/React Router-4D4D4D?logo=React Router"/>
     <img src="https://img.shields.io/badge/Netlify-4D4D4D?logo=Netlify" />
 
 </p>
 
 <br>
 
-## 🏠 [Runcord](https://runcord.netlify.app/)
+## 🏠 [Deliciouss](https://monumental-rolypoly-fb2e03.netlify.app/)
 
 <br>
 
-⏱ 런닝 / 사이클을 지도와 기록을 기록하고 지도에 지도를 마킹 하는 웹 앱 입니다.
+🍕세계 여러나라의 대표 음식의 레시피를 검색할수 있는 앱입니다.
 
 <br>
 
@@ -31,9 +31,9 @@
 
 ## 📌 주요 기능
 
-| [🔗 form 추가 ](https://github.com/jackma914/js-run_record_app/wiki/%F0%9F%93%8C-%EB%A7%B5-%ED%81%B4%EB%A6%AD) | [🔗 런닝/사이클 추가](https://github.com/jackma914/js-run_record_app/wiki/%F0%9F%93%8C-%EB%9F%B0%EB%8B%9D-%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%B6%94%EA%B0%80) | [🔗 맵 이동](https://github.com/jackma914/js-run_record_app/wiki/%F0%9F%93%8C-%EB%A7%B5-%EC%9D%B4%EB%8F%99) |
+| [🔗 레시피 ](https://github.com/jackma914/react-recipe-app/wiki/%F0%9F%93%8C-%EB%A0%88%EC%8B%9C%ED%94%BC) | [🔗 레시피 검색](https://github.com/jackma914/react-recipe-app/wiki/%F0%9F%93%8C-%EB%A0%88%EC%8B%9C%ED%94%BC-%EA%B2%80%EC%83%89) | [🔗 카테고리 ](https://github.com/jackma914/react-recipe-app/wiki/%F0%9F%93%8C-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC) |
 | :------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: |
-|                                  <img width='500' src='image/클릭사이드.gif'>                                  |                                                          <img width='500' src='image/추가.gif'>                                                           |                                  <img width='500' src='image/맵이동.gif'>                                   |
+|                                  <img width='500' src='images/레시피.gif'>                                  |                                                          <img width='500' src='images/레시피.gif'>                                                           |                                  <img width='500' src='images/.gif'>                                   |
 
 <br>
 
